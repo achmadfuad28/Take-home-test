@@ -1,0 +1,59 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.android.bareksatest"
+        minSdkVersion 29
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        dataBinding = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation libs.kotlinStdLib
+    implementation libs.androidcore
+    implementation libs.appcompat
+    implementation libs.multidex
+    implementation libs.archRuntime
+    implementation libs.archExtension
+    implementation libs.viewmodel
+    implementation libs.retrofit2gson
+
+    implementation libs.supportDesign
+    implementation libs.constrainlayout
+    implementation libs.koin
+    implementation libs.koinJava
+    implementation libs.koinVM
+    implementation libs.graph
+    implementation libs.glide
+}

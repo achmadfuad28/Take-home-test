@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFFFFF</color>
+    <color name="primary_800">#4B8B26</color>
+    <color name="disabled">#26000000</color>
+    <color name="green">#E2EBDD</color>
+    <color name="violet">#E0DBEB</color>
+    <color name="navy">#E0E8EE</color>
+    <color name="surface">#3C000000</color>
+    <color name="surface_dark">#F5F5F5</color>
+
+    <color name="webimageview_default_placeholder">#AAA</color>
+    <color name="webimageview_default_error_placeholder">#AAA</color>
+</resources>

@@ -1,0 +1,65 @@
+{
+  "status": "Success",
+  "code": "200 OK",
+  "message": "OK",
+  "data":
+     [
+       {
+          "type": "",
+          "title" : "name",
+          "content": [
+            {
+              "id": "5d7b0ac3a60b59330e9ac585",
+              "name": "BNI-AM Inspiring Equity Fund",
+              "imageUrl": "https://i.ibb.co/0sNX0RY/bni-4x.png"
+            },
+            {
+              "id": "5d7b0ac3a60s0e9ac585",
+              "name": "Cipta Dana Cash",
+              "imageUrl": "https://i.ibb.co/yqscpG6/ciptadana-4x.png"
+            },
+            {
+              "id": "5d7b0ac3a60b59330e9ac5d5",
+              "name": "Ascend Reksa Dana Saham Eq...",
+              "imageUrl": "https://i.ibb.co/VghVMwS/ascend-4x.png"
+            }
+          ]
+       },
+       {
+         "type": "type",
+         "title" : "Jenis Rexa Dana",
+         "content": ["Saham", "Pasar Uang", "Saham"]
+       },
+       {
+         "type": "yield",
+         "title" : "Imbal Hasil",
+         "content": ["5,50% / 5 th", "6,29% / thn", "7,17% / 5 thn"]
+       },
+       {
+         "type": "fund",
+         "title" : "Dana Kelolaan",
+         "content": ["3,64 Miliar", "215,97 Miliar", "3,89 Triliun"]
+       },
+       {
+         "type": "minimumPurchase",
+         "title" : "Min. Pembelian",
+         "content": ["1 Juta", "100 Ribu", "100 Ribu"]
+       },
+       {
+         "type": "period",
+         "title" : "Jangka Waktu",
+         "content": ["5 Tahun G", "100 Ribu", "100 Ribu"]
+       },
+       {
+         "type": "risk",
+         "title" : "Tingkat Resiko",
+         "content": ["Tinggi", "Rendah", "Tinggi"]
+       },
+       {
+         "type": "launch",
+         "title" : "Peluncuran",
+         "content": ["16 Apr 2014", "14 Jan 2016", "20 Feb 2007"],
+         "lastPosition": true
+       }
+    ]
+}
