@@ -40,6 +40,7 @@ open class YieldFragment : BaseFragment(),
         compareCategoryLayoutManager = LinearLayoutManager(requireContext())
         getCompareDataFromMock()
         setUpGraph()
+        binding.tabLayout.setSelectedTabIndicatorColor(requireActivity().getColor(R.color.primary_800))
 
         binding.tabLayout.addTab(binding.tabLayout.newTab().setText("1W"))
         binding.tabLayout.addTab(binding.tabLayout.newTab().setText("1M"))
