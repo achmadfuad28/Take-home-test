@@ -8,6 +8,11 @@
     <color name="navy">#E0E8EE</color>
     <color name="surface">#99000000</color>
     <color name="surface_dark">#F5F5F5</color>
+    <color name="green_line">#668054</color>
+    <color name="blue_line">#6D98B6</color>
+    <color name="violet_line">#725E9C</color>
+
+
 
     <color name="webimageview_default_placeholder">#AAA</color>
     <color name="webimageview_default_error_placeholder">#AAA</color>
