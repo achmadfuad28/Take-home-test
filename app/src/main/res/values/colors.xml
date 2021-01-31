@@ -6,7 +6,7 @@
     <color name="green">#E2EBDD</color>
     <color name="violet">#E0DBEB</color>
     <color name="navy">#E0E8EE</color>
-    <color name="surface">#3C000000</color>
+    <color name="surface">#99000000</color>
     <color name="surface_dark">#F5F5F5</color>
 
     <color name="webimageview_default_placeholder">#AAA</color>
